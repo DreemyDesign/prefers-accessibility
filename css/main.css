@@ -61,35 +61,33 @@ html {
 
 }
 
-@media (prefers-reduced-motion) {
-
- .gear {
-   animation: none;
- }
-
-}
-
-@media (prefers-color-scheme: dark) {
-
-  body {
-    background-color: #111;
-  }
-
-  .banner {
-    background-color: #333;
-  }
-
-  h1 {
-    color: #ccc;
-  }
-
-}
-
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
  * =============
- *
+ * @media (prefers-reduced-motion) {
+
+   .gear {
+     animation: none;
+   }
+
+ }
+
+ @media (prefers-color-scheme: dark) {
+
+   body {
+     background-color: #111;
+   }
+
+   .banner {
+     background-color: #333;
+   }
+
+   h1 {
+     color: #ccc;
+   }
+
+ }
  * =============
  */
 
